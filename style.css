@@ -38,11 +38,18 @@ body a{
     justify-content:space-around;
     padding:40px 6px;
     height:66px;
+    width:100vw;
     align-items: center;
     border-bottom :2px solid #f3f3f3;
+    position:fixed;
+ 
 }
 .header img {
     width : 160px;
+}
+
+.header-right a:hover{
+    color:#387ED1;
 }
 
 .header-right{
@@ -53,9 +60,8 @@ body a{
 .header-right a{
     text-decoration:none;
     color:#666;
-    font-family:Arial, Helvetica, sans-serif;
- 
-  
+    font-family:Arial, Helvetica, sans-serif;  
+    transition:color 0.4ms ease;
 
 }
 .hero-section{
@@ -64,8 +70,8 @@ body a{
 
 }
 .hero-section img{
-    height:450px;
-    margin-top:100px;
+    height:440px;
+    margin-top:160px;
     
 }
 .hero-section h1{
